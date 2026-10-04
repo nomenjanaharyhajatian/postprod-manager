@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>PostProd Manager — Gestion de post-production</title>
+  <meta name="description" content="Suivi hors-ligne des rushs, scènes, épisodes et disques de stockage pour équipes de montage.">
+  <meta name="theme-color" content="#12141A">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Le contenu est entièrement généré par js/app.js (écran PIN puis shell applicatif) -->
+  <noscript>Cette application nécessite JavaScript.</noscript>
+
+  <!-- Utilitaires transverses -->
+  <script src="js/utils/utils.js"></script>
+  <script src="js/utils/permissions.js"></script>
+  <script src="js/utils/auth.js"></script>
+
+  <!-- Moteur : base de données, état global, navigation -->
+  <script src="js/core/db.js"></script>
+  <script src="js/core/store.js"></script>
+  <script src="js/core/router.js"></script>
+
+  <!-- Logique métier : calculs, validation, sauvegardes, historique, tâches, sécurité -->
+  <script src="js/logic/calc.js"></script>
+  <script src="js/logic/validation.js"></script>
+  <script src="js/logic/backup.js"></script>
+  <script src="js/logic/history.js"></script>
+  <script src="js/logic/tasks.js"></script>
+  <script src="js/logic/security.js"></script>
+
+  <!-- Interface utilisateur : composants, tri, couleurs, colonnes -->
+  <script src="js/ui/components.js"></script>
+  <script src="js/ui/sort.js"></script>
+  <script src="js/ui/colors.js"></script>
+  <script src="js/ui/columns.js"></script>
+
+  <!-- Données du changelog -->
+  <script src="js/changelog.js"></script>
+
+  <!-- Pages de l'application -->
+  <script src="js/ui/pages/dashboard.js"></script>
+  <script src="js/ui/pages/projects.js"></script>
+  <script src="js/ui/pages/episodes.js"></script>
+  <script src="js/ui/pages/scenes.js"></script>
+  <script src="js/ui/pages/rushes.js"></script>
+  <script src="js/ui/pages/search.js"></script>
+  <script src="js/ui/pages/myTasks.js"></script>
+  <script src="js/ui/pages/alerts.js"></script>
+  <script src="js/ui/pages/reports.js"></script>
+  <script src="js/ui/pages/settingsPage.js"></script>
+  <script src="js/ui/pages/backupPage.js"></script>
+  <script src="js/ui/pages/usersPage.js"></script>
+  <script src="js/ui/pages/changelogPage.js"></script>
+
+  <!-- Point d'entrée de l'application -->
+  <script src="js/app.js"></script>
+</body>
+</html>
