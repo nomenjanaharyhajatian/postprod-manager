@@ -1,0 +1,15 @@
+{
+  "name": "PostProd Manager",
+  "short_name": "PostProd",
+  "description": "Gestion de post-production audiovisuelle — suivi des rushs, scènes, épisodes et disques, 100% hors ligne.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#12141A",
+  "theme_color": "#12141A",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
